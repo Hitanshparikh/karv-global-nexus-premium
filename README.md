@@ -1,73 +1,193 @@
-# Welcome to your Lovable project
+# Karv Global Nexus - Premium Website
 
-## Project info
+A sophisticated, premium website for Karv Global Nexus - a leading logistics and global trade consulting company. This modern web application showcases the company's 27+ years of expertise in port operations, freight forwarding, and critical minerals trading.
 
-**URL**: https://lovable.dev/projects/ed9e2150-63c6-4d89-a373-2eeaf46610cc
+## ✨ Features
 
-## How can I edit this code?
+### Premium Design System
+- **Sophisticated Color Palette**: Professional blue primary (#221 83% 53%) with neutral secondary colors
+- **Modern UI Components**: Built with ShadCN UI for premium user experience
+- **Glassmorphism Effects**: Elegant backdrop blur effects and professional shadows
+- **Responsive Design**: Mobile-first approach with smooth responsive breakpoints
+- **Professional Animations**: Subtle hover effects and smooth transitions
 
-There are several ways of editing your application.
+### Key Pages
+- **Home**: Hero section with floating stats, service overview, and trust indicators
+- **About**: Company story, leadership profiles, timeline, and core values
+- **Services**: Detailed service presentation for two business verticals
+- **Contact**: Multi-channel contact information with professional inquiry form
 
-**Use Lovable**
+### Business Verticals
+1. **Port Operations & Freight Forwarding**
+   - Strategic port consulting
+   - End-to-end freight forwarding
+   - Supply chain optimization
+   - Maritime trade expertise
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ed9e2150-63c6-4d89-a373-2eeaf46610cc) and start prompting.
+2. **Critical Minerals & REPM**
+   - Rare earth and critical mineral trading
+   - Strategic resource management
+   - Sustainable supply chain solutions
+   - Market intelligence and analysis
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Tech Stack
 
-**Use your preferred IDE**
+- **Framework**: React 18 with TypeScript
+- **Build Tool**: Vite for fast development and optimized builds
+- **Styling**: Tailwind CSS with custom design tokens
+- **Components**: ShadCN UI component library
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
+- **State Management**: TanStack Query
+- **Development**: ESLint for code quality
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/karv-global-nexus-premium.git
+   cd karv-global-nexus-premium
+   ```
 
-Follow these steps:
+2. **Install dependencies**
+   ```bash
+   # Using bun (recommended)
+   bun install
+   
+   # Or using npm
+   npm install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Start development server**
+   ```bash
+   # Using bun
+   bun dev
+   
+   # Or using npm
+   npm run dev
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. **Open in browser**
+   ```
+   http://localhost:5173
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ Available Scripts
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+- `bun dev` / `npm run dev` - Start development server
+- `bun run build` / `npm run build` - Build for production
+- `bun run preview` / `npm run preview` - Preview production build
+- `bun run lint` / `npm run lint` - Run ESLint
+
+## 🎨 Design System
+
+### Color Palette
+```css
+/* Primary Colors */
+--primary: 221 83% 53%           /* Professional Blue */
+--primary-foreground: 210 40% 98%
+
+/* Secondary Colors */
+--secondary: 210 40% 96%         /* Light Gray */
+--accent: 210 40% 94%           /* Accent Gray */
+--muted: 210 40% 92%            /* Muted Gray */
+
+/* Background */
+--background: 0 0% 100%         /* Pure White */
+--foreground: 222.2 84% 4.9%    /* Dark Text */
 ```
 
-**Edit a file directly in GitHub**
+### Typography
+- **Headings**: Professional hierarchy with proper spacing
+- **Body Text**: Readable line heights and spacing
+- **Interactive Elements**: Clear hover states and feedback
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Shadows & Effects
+- **Minimal**: Subtle shadows for cards and components
+- **Elegant**: Medium shadows for interactive elements
+- **Strong**: Prominent shadows for floating elements
+- **Soft**: Gentle shadows for timeline elements
 
-**Use GitHub Codespaces**
+## 📁 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # ShadCN UI components
+│   ├── Layout.tsx      # Main layout wrapper
+│   ├── Navigation.tsx  # Header navigation
+│   └── Footer.tsx      # Footer component
+├── pages/              # Page components
+│   ├── Home.tsx        # Landing page
+│   ├── About.tsx       # About page
+│   ├── Services.tsx    # Services page
+│   └── Contact.tsx     # Contact page
+├── assets/             # Images and static assets
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── index.css          # Global styles and design tokens
+```
 
-## What technologies are used for this project?
+## 🌐 Deployment
 
-This project is built with:
+### Netlify (Recommended)
+1. Connect your GitHub repository to Netlify
+2. Set build command: `bun run build` or `npm run build`
+3. Set publish directory: `dist`
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Vercel
+1. Import your GitHub repository
+2. Framework preset will be automatically detected
+3. Deploy with default settings
 
-## How can I deploy this project?
+### Manual Build
+```bash
+bun run build
+# or
+npm run build
+```
 
-Simply open [Lovable](https://lovable.dev/projects/ed9e2150-63c6-4d89-a373-2eeaf46610cc) and click on Share -> Publish.
+The built files will be in the `dist/` directory.
 
-## Can I connect a custom domain to my Lovable project?
+## 🎯 Key Features Implementation
 
-Yes, you can!
+### Professional Color Transformation
+- Replaced bright red/orange/yellow with sophisticated blue/neutral palette
+- Maintained brand recognition while achieving premium appearance
+- Implemented proper color contrast for accessibility
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Enhanced User Experience
+- Smooth page transitions and hover effects
+- Intuitive navigation with clear visual hierarchy
+- Mobile-optimized responsive design
+- Professional loading states and interactions
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Industry-Appropriate Content
+- Clear value propositions for logistics services
+- Professional language and messaging
+- Trust indicators and credibility elements
+- Strategic positioning in critical minerals market
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/new-feature`
+3. Commit changes: `git commit -m "Add new feature"`
+4. Push to branch: `git push origin feature/new-feature`
+5. Submit a pull request
+
+## 📄 License
+
+This project is proprietary and confidential. All rights reserved by Karv Global Nexus.
+
+## 📞 Contact
+
+**Karv Global Nexus**
+- Website: [Coming Soon]
+- Email: info@karvglobal.com
+- Founded: 1997
+- Expertise: 27+ Years in Logistics Excellence
+
+---
+
+*Carving Your Growth Curve* - Transforming global trade through innovative logistics solutions and strategic resource management.
